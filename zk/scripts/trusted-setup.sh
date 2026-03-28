@@ -21,9 +21,9 @@ CIRCUITS=(
   "username_hash"
 )
 
-# Power of 2 constraints — merkle_inclusion has ~8070 constraints, needs >= 14
-# 2^14 = 16384 — safe for all 3 circuits
-POW=14
+# Power of 2 constraints — merkle_inclusion has ~18662 constraints, needs >= 15
+# 2^16 = 65536 — safe for all circuits and allows for growth
+POW=16
 
 GREEN="\033[0;32m"
 CYAN="\033[0;36m"
